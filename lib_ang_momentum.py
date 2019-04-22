@@ -22,7 +22,6 @@ Using a normalized moment of inertia of 0.4 (check if there are better numbers)
 
 # Python imports
 from numpy import pi, arange, array
-import matplotlib.pyplot as plt
 
 # Function to calculate angular rate (rad/s) for either spin or orbital periods
 def AngularRate(Period, Units):
