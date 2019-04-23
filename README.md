@@ -4,8 +4,8 @@ Script to calculate and plot the angular momentum of planetary systems for a par
 
 ## Usage
 
-```python3
-main.py
+```bash
+python3 main.py
 ```
 
 ## Contributing
