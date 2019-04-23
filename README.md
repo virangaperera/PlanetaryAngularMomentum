@@ -5,6 +5,8 @@ Python script to calculate and plot the angular momentum of planetary systems fo
 ## Foreword
 The total angular momentum of the Earth-Moon system is often used as an argument for the giant impact origin of the Moon. This script was written to demonstrate that the total angular momentum of the Earth-Moon system is not unusually higher than the other planetary systems in our solar system. Yet, there is something special about the angular momentum of the Earth-Moon system. Of the total angular momentum of the system, most of the angular momentum is due to the Moon. This is not like the other planets in our solar system, where most of the angular momentum of a particular planetary system is in the planet. The Moon was still likely formed after a giant impact but it is important to understand that it is not the total but rather the fraction of angular momentum that is in the planet vs. the moon(s) that may indicate a giant impact formed the moon(s). A higher fraction of angular momentum in the moon(s) may indicate a giant impact origin, whereas a higher fraction in the planet may suggest a more accretionary-type origin of the moon(s).
 
+![alt tag](https://raw.github.com/magic-sph/magic/master/doc/sphinx/.themes/magic/static/logo.png)
+
 ## Outputs
 This script will generate two figures (PDF files). One will plot the total angular momentum for each planetary system. The total angular momentum will include: 
 1. Due to the spin of the planet
