@@ -10,7 +10,7 @@ The total angular momentum of the Earth-Moon system is often used as an argument
 
 This script was mainly written to demonstrate that the total angular momentum of the Earth-Moon system is not unusually higher than the other planetary systems in our solar system (see figure).
 
-![alt tag](https://github.com/virangaperera/PlanetaryAngularMomentum/blob/master/Plots/Total_Angular_Momentum_Comparison.png =170x100)
+<img src="https://github.com/virangaperera/PlanetaryAngularMomentum/blob/master/Plots/Total_Angular_Momentum_Comparison.png" width="170" height="100">
 
 Yet, there is something special about the angular momentum of the Earth-Moon system. Of the total angular momentum of the system, most of the angular momentum is due to the Moon (see figure).
 
