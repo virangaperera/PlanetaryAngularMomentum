@@ -1,31 +1,38 @@
 # Planetary Angular Momentum
 
-Python script to calculate and plot the angular momentum of planetary systems for a particular star system. This script is written by Viranga Perera and Ankit Barik. This is a free software. It can be used, modified and redistributed under the terms of the GNU GPL v3 licence.
+Python script to calculate and plot angular momenta of planetary systems for a particular star system. The default is our solar system. This script is written by Viranga Perera and Ankit Barik. This is a free software. It can be used, modified and redistributed under the terms of the GNU GPL v3 licence.
 
-## Foreword
-The total angular momentum of the Earth-Moon system is often used as an argument for the giant impact origin of the Moon. This script was written to demonstrate that the total angular momentum of the Earth-Moon system is not unusually higher than the other planetary systems in our solar system. Yet, there is something special about the angular momentum of the Earth-Moon system. Of the total angular momentum of the system, most of the angular momentum is due to the Moon. This is not like the other planets in our solar system, where most of the angular momentum of a particular planetary system is in the planet. The Moon was still likely formed after a giant impact but it is important to understand that it is not the total but rather the fraction of angular momentum that is in the planet vs. the moon(s) that may indicate a giant impact formed the moon(s). A higher fraction of angular momentum in the moon(s) may indicate a giant impact origin, whereas a higher fraction in the planet may suggest a more accretionary-type origin of the moon(s).
-
-![alt tag](https://raw.github.com/magic-sph/magic/master/doc/sphinx/.themes/magic/static/logo.png)
-
-## Outputs
-This script will generate two figures (PDF files). One will plot the total angular momentum for each planetary system. The total angular momentum will include: 
+## Introduction
+The total angular momentum of the Earth-Moon system is often used as an argument for the giant impact origin of the Moon. The total angular momentum of a planetary system includes angular momentum: 
 1. Due to the spin of the planet
 2. Due to the spin of the moon(s)
 3. Due to the orbit(s) of the moon(s)
 
-The other plot will compare the angular momenta of the planet and the moon(s).
+This script was mainly written to demonstrate that the total angular momentum of the Earth-Moon system is not unusually higher than the other planetary systems in our solar system (see figure).
 
-## Inputs
-All necessary planetary data for planets in our solar system are included in the *config.ini* file. If you would like to use this script for exoplanets please change the *config.ini* file as needed.
+![alt tag](https://raw.github.com/PlanetaryAngularMomentum/Plots/Total_Angular_Momentum_Comparison.png)
 
-## Usage
-To run this script, navigate to the PlanetaryAngularMomentum directory using a Terminal. Then type the following:
+Yet, there is something special about the angular momentum of the Earth-Moon system. Of the total angular momentum of the system, most of the angular momentum is due to the Moon (see figure).
+
+![alt tag](https://raw.github.com/PlanetaryAngularMomentum/Plots/Planet_Moons_Angular_Momentum_Comparison.png)
+
+This is not like the other planetary systems in our solar system, where most of the angular momentum resides in the planet. It is still true that the Moon was likely formed by a giant impact, but it is important to understand that it is not the total but rather the fraction of angular momentum that is in the planet vs. the moon(s) that may indicate a giant impact formation scenario. A higher fraction of angular momentum in the moon(s) may indicate a giant impact origin, whereas a higher fraction in the planet may suggest a more accretionary-type origin of the moon(s).
+
+## Script Inputs
+All necessary planetary data for planets in our solar system are included in the *config.ini* file. If you would like to use this script for exoplanets, please edit the *config.ini* file as needed.
+
+## Script Usage
+To run this script, please make sure to have Python installed on your computer along with the *numpy* and *matplotlib* libraries. Please navigate to the PlanetaryAngularMomentum directory using a Terminal window (once you have either downloaded or cloned the script from Github). Then type the following:
 ```bash
 python main.py
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+We would love for you to improve this script. Please let us know if you have sugguestions and/or questions.
 
-## License
+Contact info:
+Viranga Perera (vperera1@jhu.edu)
+Ankit Barik (abarik@jhu.edu)
+
+## Script License
 [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.en.html)
