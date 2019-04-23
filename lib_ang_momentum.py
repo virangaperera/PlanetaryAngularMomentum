@@ -1,41 +1,20 @@
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 """
-Python library to calculate the total angular momentum of each planetary system
-in our solar system.
-
-Written by: Viranga Perera & Ankit Barik
-
-Main calculation:
-Need to add three angular momentums for each planetary system:
-1. Due to the spin of the planet
-2. Due to the spin of the moon(s)
-3. Due to the orbit(s) of the moon(s)
-
-Notes:
-So far, only included at most the largest 4 moons of a planetary system
-For Phobos, Deimos, Iapetus, Dione, Titania, Oberon, Triton & Proteus
-Using a normalized moment of inertia of 0.4 (check if there are better numbers)
-
+Python library for Planetary_Angular_Momentum.py
 """
 
 # Python imports
 from numpy import pi, arange, array
 
 # Function to calculate angular rate (rad/s) for either spin or orbital periods
-def AngularRate(Period, Units):
+def AngularRate(Period):
 
+    # Number of seconds in a day
     Seconds_in_Day = 86400
-    Seconds_in_Hour = 3600
 
-    # Day is an Earth day
-    if Units == "Days":
-        # Convert rotation period from days to seconds
-        Period = Seconds_in_Day * Period
-    elif Units == "Hours":
-        # Convert rotation period from hours to seconds
-        Period = Seconds_in_Hour * Period
+    # Convert rotation period from days to seconds
+    Period = Seconds_in_Day * Period
 
     return (2 * pi) / Period
 
