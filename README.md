@@ -31,8 +31,7 @@ python main.py
 We would love for you to improve this script. Please let us know if you have sugguestions and/or questions.
 
 Contact info:
-Viranga Perera (vperera1@jhu.edu)
-Ankit Barik (abarik@jhu.edu)
+Viranga Perera (vperera1@jhu.edu) and Ankit Barik (abarik@jhu.edu)
 
 ## Script License
 [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.en.html)
