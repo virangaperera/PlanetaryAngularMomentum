@@ -10,11 +10,15 @@ The total angular momentum of the Earth-Moon system is often used as an argument
 
 This script was mainly written to demonstrate that the total angular momentum of the Earth-Moon system is not unusually higher than the other planetary systems in our solar system (see figure).
 
-<img src="https://github.com/virangaperera/PlanetaryAngularMomentum/blob/master/Plots/Total_Angular_Momentum_Comparison.png" width="340" height="200">
+<p align="center">
+<img src="https://github.com/virangaperera/PlanetaryAngularMomentum/blob/master/Plots/Total_Angular_Momentum_Comparison.png" width="612" height="360" align="middle">
+</p>
 
 Yet, there is something special about the angular momentum of the Earth-Moon system. Of the total angular momentum of the system, most of the angular momentum is due to the Moon (see figure).
 
-<img src="https://github.com/virangaperera/PlanetaryAngularMomentum/blob/master/Plots/Planet_Moons_Angular_Momentum_Comparison.png" width="340" height="200">
+<p align="center">
+<img src="https://github.com/virangaperera/PlanetaryAngularMomentum/blob/master/Plots/Planet_Moons_Angular_Momentum_Comparison.png" width="612" height="360" align="middle">
+</p>
 
 This is not like the other planetary systems in our solar system, where most of the angular momentum resides in the planet. It is still true that the Moon was likely formed by a giant impact, but it is important to understand that it is not the total but rather the fraction of angular momentum that is in the planet vs. the moon(s) that may indicate a giant impact formation scenario. A higher fraction of angular momentum in the moon(s) may indicate a giant impact origin, whereas a higher fraction in the planet may suggest a more accretionary-type origin of the moon(s).
 
