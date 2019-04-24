@@ -39,6 +39,11 @@ To run this script, please make sure to have [Python](https://wiki.python.org/mo
 python main.py
 ```
 
+## Notes
+* Moons are often tidally locked with their planets, but this is not generally assumed in this script. The input file will take both the orbital and spin periods separately, but as mentioned typically they are the same value for moons.
+* Currently we have only included at most the 4 largest moons for each planetary system. Feel free to include additional moons as needed.
+* For the moons Phobos, Deimos, Iapetus, Dione, Titania, Oberon, Triton & Proteus a normalized moment of inertia of 0.4 is used but update those values as better estimates are made available.
+
 ## Contributing
 We would love for you to improve this script. Please let us know if you have sugguestions and/or questions.
 
