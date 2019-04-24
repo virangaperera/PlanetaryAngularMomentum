@@ -8,6 +8,11 @@ The total angular momentum of the Earth-Moon system is often used as an argument
 2. Due to the spin of the moon(s)
 3. Due to the orbit(s) of the moon(s)
 
+Quotes from the literature:
+* "The angular momentum of the Earth-Moon system is...unusually high"
+* "The high angular momentum of the Earth-Moon system"
+* "The anomalously large angular momentum to the Earth-Moon system"
+
 This script was mainly written to demonstrate that the total angular momentum of the Earth-Moon system is not unusually higher than the other planetary systems in our solar system (see figure).
 
 <p align="center">
