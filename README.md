@@ -26,13 +26,15 @@ Yet, there is something special about the angular momentum of the Earth-Moon sys
 <img src="https://github.com/virangaperera/PlanetaryAngularMomentum/blob/master/Plots/Planet_Moons_Angular_Momentum_Comparison.png" width="612" height="360" align="middle">
 </p>
 
-This point has already been made by [MacDonald (1966)](https://link.springer.com/chapter/10.1007/978-1-4684-8401-4_12), but often in the literature today the angular momentum arguement is not presented properly. Unlike the other planetary systems in our solar system, where most of the angular momentum resides in the planet. It is still true that the Moon was likely formed by a giant impact, but it is important to understand that it is not the total but rather the fraction of angular momentum that is in the planet vs. the moon(s) that may indicate a giant impact formation scenario. A higher fraction of angular momentum in the moon(s) may indicate a giant impact origin, whereas a higher fraction in the planet may suggest a more accretionary-type origin of the moon(s).
+For the other planetary systems in our solar system most of the angular momentum resides in the planet. This point has already been made by [MacDonald (1966)](https://link.springer.com/chapter/10.1007/978-1-4684-8401-4_12), yet today it is often true that the angular momentum arguement is not presented properly.
+
+It is still true that the Moon likely formed from a giant impact, but it is important to understand that it is not the total but rather the fraction of angular momentum that is in the planet vs. the moon(s) that may indicate a giant impact formation scenario. A higher fraction of angular momentum in the moon(s) may indicate a giant impact origin, whereas a higher fraction in the planet may suggest a more accretionary-type origin of the moon(s).
 
 ## Script Inputs
 All necessary planetary data for planets in our solar system are included in the *config.ini* file. If you would like to use this script for exoplanets, please edit the *config.ini* file as needed.
 
 ## Script Usage
-To run this script, please make sure to have [Python](https://wiki.python.org/moin/BeginnersGuideinstalled) on your computer along with the [NumPy](https://www.numpy.org/) and [Matplotlib](https://matplotlib.org/) libraries. Please navigate to the PlanetaryAngularMomentum directory using a Terminal window (once you have either downloaded or cloned the script from Github). Then type the following:
+To run this script, please make sure to have [Python](https://wiki.python.org/moin/BeginnersGuideinstalled) installed on your computer along with the [NumPy](https://www.numpy.org/) and [Matplotlib](https://matplotlib.org/) libraries. Please navigate to the PlanetaryAngularMomentum directory using a Terminal window (once you have either downloaded or cloned the script from Github). Then type the following:
 ```bash
 python main.py
 ```
