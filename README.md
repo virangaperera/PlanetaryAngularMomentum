@@ -45,7 +45,7 @@ python main.py
 * For the moons Phobos, Deimos, Iapetus, Dione, Titania, Oberon, Triton & Proteus a normalized moment of inertia of 0.4 is used but update those values as better estimates are made available.
 
 ## Contributing
-We would love for you to improve this script. Please let us know if you have sugguestions and/or questions.
+We would love for you to improve this script. Please let us know if you have suggestions and/or questions.
 
 Contact info:
 Viranga Perera (vperera1@jhu.edu) and Ankit Barik (abarik@jhu.edu)
